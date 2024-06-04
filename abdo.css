@@ -1,9 +1,6 @@
 body{
     background-color: #FFB6C1;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 .container{
     margin: 1px auto;
