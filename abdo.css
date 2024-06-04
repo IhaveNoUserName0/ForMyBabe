@@ -11,14 +11,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 160px;
 }
 .container .env{
     position: absolute;
     width: 0;
     height: 0;
-    border-top : 150px solid transparent;
-    border-bottom: 150px solid #FC8EAC;
+    border-top : 100px solid transparent;
+    border-bottom: 100px solid #FC8EAC;
     border-right: 200px solid #FFC0CB;
     border-left: 200px solid #FFC0CB;
 }
@@ -28,13 +28,14 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
     background-color: #FFA6C9;
     border: 2px solid violet;
     color: #f95c8b;
     padding: 20px;
     width: 300px;
-    height: 120px;
+    height: 150px;
     z-index: -1;
     transition: .5s;
     word-break: break-word;
@@ -43,7 +44,7 @@ body{
     width: fit-content;
     text-align: center;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     color: #ff427b;
 }
 .container:active .txt{
