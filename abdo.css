@@ -18,10 +18,10 @@ body{
     width: 0;
     height: 0;
     border: 40px solid black;
-    border-top : 150px solid transparent;
-    border-bottom: 150px solid #FC8EAC;
-    border-right: 275px solid #FFC0CB;
-    border-left: 275px solid #FFC0CB;
+    border-top : 100px solid transparent;
+    border-bottom: 100px solid #FC8EAC;
+    border-right: 250px solid #FFC0CB;
+    border-left: 250px solid #FFC0CB;
 }
 .container .txt{
     font-weight: bold;
@@ -34,13 +34,13 @@ body{
     border: 2px solid violet;
     color: #f95c8b;
     padding: 20px;
-    width: 400px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
     z-index: -1;
     transition: .5s;
 }
 .x{
-    width: 600px;
+    width: fit-content;
     text-align: center;
     font-weight: bold;
     font-size: 90px;
