@@ -50,3 +50,10 @@ body{
 .container:active .txt{
     transform: translateY(-150px);
 }
+#msg{
+    visibility: hidden;
+    transition: .5s;
+}
+.container:active #msg{
+    visibility: visible;
+}
