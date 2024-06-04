@@ -1,20 +1,22 @@
 body{
     background-color: #FFB6C1;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .container{
-    margin: 1px auto;
-    width : 600px;
-    height: 500px;
+    width : fit-content;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 .container .env{
     position: absolute;
     width: 0;
     height: 0;
-    border: 40px solid black;
     border-top : 100px solid transparent;
     border-bottom: 100px solid #FC8EAC;
     border-right: 250px solid #FFC0CB;
@@ -22,7 +24,7 @@ body{
 }
 .container .txt{
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -31,7 +33,7 @@ body{
     border: 2px solid violet;
     color: #f95c8b;
     padding: 20px;
-    width: 250px;
+    width: 350px;
     height: 150px;
     z-index: -1;
     transition: .5s;
@@ -40,10 +42,9 @@ body{
     width: fit-content;
     text-align: center;
     font-weight: bold;
-    font-size: 90px;
-    margin: 5px auto;
+    font-size: 60px;
     color: #ff427b;
 }
-.container:hover .txt{
+.container:active .txt{
     transform: translateY(-150px);
 }
